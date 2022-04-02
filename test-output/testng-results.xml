@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-03T02:10:19 IST" name="Data Drivern Basics" finished-at="2022-04-03T02:10:20 IST" duration-ms="1207">
+    <groups>
+    </groups>
+    <test started-at="2022-04-03T02:10:19 IST" name="Login Test" finished-at="2022-04-03T02:10:20 IST" duration-ms="1207">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.LoginTest@7d900ecf]" started-at="2022-04-03T02:10:12 IST" name="setUp" finished-at="2022-04-03T02:10:19 IST" duration-ms="6135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAsBankManager()[pri:1, instance:com.w2a.testcases.LoginTest@7d900ecf]" started-at="2022-04-03T02:10:19 IST" name="loginAsBankManager" finished-at="2022-04-03T02:10:19 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method signature="verifyOpenAccountBtn()[pri:2, instance:com.w2a.testcases.LoginTest@7d900ecf]" started-at="2022-04-03T02:10:19 IST" name="verifyOpenAccountBtn" finished-at="2022-04-03T02:10:19 IST" depends-on-methods="com.w2a.testcases.LoginTest.loginAsBankManager" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccountBtn -->
+        <test-method signature="verifyCustomersBtn()[pri:3, instance:com.w2a.testcases.LoginTest@7d900ecf]" started-at="2022-04-03T02:10:19 IST" name="verifyCustomersBtn" finished-at="2022-04-03T02:10:19 IST" depends-on-methods="com.w2a.testcases.LoginTest.loginAsBankManager" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomersBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@7d900ecf]" started-at="2022-04-03T02:10:20 IST" name="tearDown" finished-at="2022-04-03T02:10:20 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+      <class name="com.w2a.testcases.AddCustomer">
+        <test-method signature="addCustomer()[pri:0, instance:com.w2a.testcases.AddCustomer@5b799640]" started-at="2022-04-03T02:10:19 IST" name="addCustomer" finished-at="2022-04-03T02:10:20 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- com.w2a.testcases.AddCustomer -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Data Drivern Basics -->
+</testng-results>
